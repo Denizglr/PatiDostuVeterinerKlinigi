@@ -128,5 +128,11 @@
   <ItemGroup>
     <None Include="Resources\Gemini_Generated_Image_e5cp59e5cp59e5cp %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altın1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altın.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

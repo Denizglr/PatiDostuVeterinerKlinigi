@@ -63,6 +63,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap altın {
+            get {
+                object obj = ResourceManager.GetObject("altın", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap altın1 {
+            get {
+                object obj = ResourceManager.GetObject("altın1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_e5cp59e5cp59e5cp__1_ {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_e5cp59e5cp59e5cp (1)", resourceCulture);
