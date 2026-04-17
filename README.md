@@ -40,16 +40,21 @@ Veteriner ve yöneticilerin sisteme güvenli erişim sağladığı modül.
 ![Giriş Ekranı](giris.png)
 ### 🏠 Ana Menü (Dashboard)
 Tüm klinik işlemlerinin merkez üssü.
-![Ana Sayfa](https://github.com/user-attachments/assets/0139bfd8-1167-4741-b7a7-e577e9735526)
+![Ana Sayfa](AnaSayfa.png)
 
 ### 🐾 Hasta Kayıt ve Sorgulama
 Evcil hayvanların ve sahiplerinin detaylı bilgilerinin yönetildiği alan.
-![Hasta Kayıt Ekranı](https://github.com/user-attachments/assets/7c657621-110d-42ff-bb6f-5b94b3f397db)
+![Hasta Kayıt Ekranı](Hastalar.png)
 
 ### 📅 Randevu Yönetimi
 Klinik takviminin ve randevu çakışmalarının kontrol edildiği modül.
-![Randevu Sistemi](https://github.com/user-attachments/assets/820e9c20-21ed-4a0f-8054-2ad3d82c1632)
+![Randevu Sistemi](Randevular.png)
 
 ### 💊 Stok ve İlaç Takibi
 İlaç envanterinin ve kritik stok seviyelerinin izlendiği ekran.
-![Stok Takibi](https://github.com/user-attachments/assets/a3769b8e-1cec-4660-b6cc-108028d1ff61)
+![Stok Takibi](İlaclar.png)
+
+### Ödeme Takibi
+Ödeme ekranı.
+![Ödemeler](Odemeler.png)
+
