@@ -37,8 +37,7 @@ Projenin temel arayüz tasarımları ve kullanım akışı aşağıda sunulmuşt
 
 ### 🔐 Giriş Paneli
 Veteriner ve yöneticilerin sisteme güvenli erişim sağladığı modül.
-![Giriş Paneli](https://github.com/user-attachments/assets/b34c2337-b545-4f5e-be7b-a5cd15f8690f)
-
+![Giriş Paneli](GÖRSEL_LİNKİ)
 ### 🏠 Ana Menü (Dashboard)
 Tüm klinik işlemlerinin merkez üssü.
 ![Ana Sayfa](https://github.com/user-attachments/assets/0139bfd8-1167-4741-b7a7-e577e9735526)
