@@ -46,17 +46,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.txtHsAd = new System.Windows.Forms.TextBox();
+            this.txtHsSoyad = new System.Windows.Forms.TextBox();
+            this.txtHsTel = new System.Windows.Forms.TextBox();
+            this.txtHsAdres = new System.Windows.Forms.TextBox();
+            this.txtHastaYas = new System.Windows.Forms.TextBox();
+            this.txtHastaCins = new System.Windows.Forms.TextBox();
+            this.txtHastaTur = new System.Windows.Forms.TextBox();
+            this.txtHastaAd = new System.Windows.Forms.TextBox();
+            this.btnHastaEkle = new System.Windows.Forms.Button();
+            this.btnHastaSil = new System.Windows.Forms.Button();
+            this.btnHastaGuncelle = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -290,138 +290,141 @@
             this.label10.TabIndex = 23;
             this.label10.Text = "Yaş :";
             // 
-            // textBox1
+            // txtHsAd
             // 
-            this.textBox1.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(85, 168);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 15);
-            this.textBox1.TabIndex = 24;
+            this.txtHsAd.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHsAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHsAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHsAd.ForeColor = System.Drawing.Color.Black;
+            this.txtHsAd.Location = new System.Drawing.Point(85, 168);
+            this.txtHsAd.Name = "txtHsAd";
+            this.txtHsAd.Size = new System.Drawing.Size(157, 15);
+            this.txtHsAd.TabIndex = 24;
             // 
-            // textBox2
+            // txtHsSoyad
             // 
-            this.textBox2.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(85, 215);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 15);
-            this.textBox2.TabIndex = 25;
+            this.txtHsSoyad.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHsSoyad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHsSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHsSoyad.ForeColor = System.Drawing.Color.Black;
+            this.txtHsSoyad.Location = new System.Drawing.Point(85, 215);
+            this.txtHsSoyad.Name = "txtHsSoyad";
+            this.txtHsSoyad.Size = new System.Drawing.Size(157, 15);
+            this.txtHsSoyad.TabIndex = 25;
             // 
-            // textBox3
+            // txtHsTel
             // 
-            this.textBox3.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(85, 275);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 15);
-            this.textBox3.TabIndex = 26;
+            this.txtHsTel.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHsTel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHsTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHsTel.ForeColor = System.Drawing.Color.Black;
+            this.txtHsTel.Location = new System.Drawing.Point(85, 275);
+            this.txtHsTel.Name = "txtHsTel";
+            this.txtHsTel.Size = new System.Drawing.Size(157, 15);
+            this.txtHsTel.TabIndex = 26;
             // 
-            // textBox4
+            // txtHsAdres
             // 
-            this.textBox4.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(85, 332);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 15);
-            this.textBox4.TabIndex = 27;
+            this.txtHsAdres.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHsAdres.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHsAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHsAdres.ForeColor = System.Drawing.Color.Black;
+            this.txtHsAdres.Location = new System.Drawing.Point(85, 332);
+            this.txtHsAdres.Name = "txtHsAdres";
+            this.txtHsAdres.Size = new System.Drawing.Size(157, 15);
+            this.txtHsAdres.TabIndex = 27;
             // 
-            // textBox5
+            // txtHastaYas
             // 
-            this.textBox5.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(85, 579);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(157, 15);
-            this.textBox5.TabIndex = 31;
+            this.txtHastaYas.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHastaYas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHastaYas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHastaYas.ForeColor = System.Drawing.Color.Black;
+            this.txtHastaYas.Location = new System.Drawing.Point(85, 579);
+            this.txtHastaYas.Name = "txtHastaYas";
+            this.txtHastaYas.Size = new System.Drawing.Size(157, 15);
+            this.txtHastaYas.TabIndex = 31;
             // 
-            // textBox6
+            // txtHastaCins
             // 
-            this.textBox6.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox6.ForeColor = System.Drawing.Color.Black;
-            this.textBox6.Location = new System.Drawing.Point(85, 522);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(157, 15);
-            this.textBox6.TabIndex = 30;
+            this.txtHastaCins.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHastaCins.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHastaCins.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHastaCins.ForeColor = System.Drawing.Color.Black;
+            this.txtHastaCins.Location = new System.Drawing.Point(85, 522);
+            this.txtHastaCins.Name = "txtHastaCins";
+            this.txtHastaCins.Size = new System.Drawing.Size(157, 15);
+            this.txtHastaCins.TabIndex = 30;
             // 
-            // textBox7
+            // txtHastaTur
             // 
-            this.textBox7.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox7.ForeColor = System.Drawing.Color.Black;
-            this.textBox7.Location = new System.Drawing.Point(85, 462);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(157, 15);
-            this.textBox7.TabIndex = 29;
+            this.txtHastaTur.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHastaTur.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHastaTur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHastaTur.ForeColor = System.Drawing.Color.Black;
+            this.txtHastaTur.Location = new System.Drawing.Point(85, 462);
+            this.txtHastaTur.Name = "txtHastaTur";
+            this.txtHastaTur.Size = new System.Drawing.Size(157, 15);
+            this.txtHastaTur.TabIndex = 29;
             // 
-            // textBox8
+            // txtHastaAd
             // 
-            this.textBox8.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox8.ForeColor = System.Drawing.Color.Black;
-            this.textBox8.Location = new System.Drawing.Point(85, 415);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(157, 15);
-            this.textBox8.TabIndex = 28;
+            this.txtHastaAd.BackColor = System.Drawing.Color.MistyRose;
+            this.txtHastaAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHastaAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtHastaAd.ForeColor = System.Drawing.Color.Black;
+            this.txtHastaAd.Location = new System.Drawing.Point(85, 415);
+            this.txtHastaAd.Name = "txtHastaAd";
+            this.txtHastaAd.Size = new System.Drawing.Size(157, 15);
+            this.txtHastaAd.TabIndex = 28;
             // 
-            // button6
+            // btnHastaEkle
             // 
-            this.button6.BackColor = System.Drawing.Color.RosyBrown;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.MistyRose;
-            this.button6.Location = new System.Drawing.Point(391, 566);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(125, 28);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "EKLE";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnHastaEkle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnHastaEkle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHastaEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHastaEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHastaEkle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnHastaEkle.Location = new System.Drawing.Point(391, 566);
+            this.btnHastaEkle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnHastaEkle.Name = "btnHastaEkle";
+            this.btnHastaEkle.Size = new System.Drawing.Size(125, 28);
+            this.btnHastaEkle.TabIndex = 15;
+            this.btnHastaEkle.Text = "EKLE";
+            this.btnHastaEkle.UseVisualStyleBackColor = false;
+            this.btnHastaEkle.Click += new System.EventHandler(this.btnHastaEkle_Click);
             // 
-            // button7
+            // btnHastaSil
             // 
-            this.button7.BackColor = System.Drawing.Color.RosyBrown;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.MistyRose;
-            this.button7.Location = new System.Drawing.Point(698, 566);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(125, 28);
-            this.button7.TabIndex = 32;
-            this.button7.Text = "SİL";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnHastaSil.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnHastaSil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHastaSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHastaSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHastaSil.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnHastaSil.Location = new System.Drawing.Point(698, 566);
+            this.btnHastaSil.Margin = new System.Windows.Forms.Padding(0);
+            this.btnHastaSil.Name = "btnHastaSil";
+            this.btnHastaSil.Size = new System.Drawing.Size(125, 28);
+            this.btnHastaSil.TabIndex = 32;
+            this.btnHastaSil.Text = "SİL";
+            this.btnHastaSil.UseVisualStyleBackColor = false;
+            this.btnHastaSil.Click += new System.EventHandler(this.btnHastaSil_Click);
             // 
-            // button8
+            // btnHastaGuncelle
             // 
-            this.button8.BackColor = System.Drawing.Color.RosyBrown;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.MistyRose;
-            this.button8.Location = new System.Drawing.Point(547, 566);
-            this.button8.Margin = new System.Windows.Forms.Padding(0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(125, 28);
-            this.button8.TabIndex = 33;
-            this.button8.Text = "GÜNCELLE";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnHastaGuncelle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnHastaGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHastaGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHastaGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHastaGuncelle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnHastaGuncelle.Location = new System.Drawing.Point(547, 566);
+            this.btnHastaGuncelle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnHastaGuncelle.Name = "btnHastaGuncelle";
+            this.btnHastaGuncelle.Size = new System.Drawing.Size(125, 28);
+            this.btnHastaGuncelle.TabIndex = 33;
+            this.btnHastaGuncelle.Text = "GÜNCELLE";
+            this.btnHastaGuncelle.UseVisualStyleBackColor = false;
+            this.btnHastaGuncelle.Click += new System.EventHandler(this.btnHastaGuncelle_Click);
             // 
             // dataGridView1
             // 
@@ -431,6 +434,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(677, 403);
             this.dataGridView1.TabIndex = 37;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Hastalar
             // 
@@ -439,17 +443,17 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1017, 635);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnHastaGuncelle);
+            this.Controls.Add(this.btnHastaSil);
+            this.Controls.Add(this.btnHastaEkle);
+            this.Controls.Add(this.txtHastaYas);
+            this.Controls.Add(this.txtHastaCins);
+            this.Controls.Add(this.txtHastaTur);
+            this.Controls.Add(this.txtHastaAd);
+            this.Controls.Add(this.txtHsAdres);
+            this.Controls.Add(this.txtHsTel);
+            this.Controls.Add(this.txtHsSoyad);
+            this.Controls.Add(this.txtHsAd);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -465,6 +469,7 @@
             this.Name = "Hastalar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hastalar";
+            this.Load += new System.EventHandler(this.Hastalar_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -492,17 +497,17 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox txtHsAd;
+        private System.Windows.Forms.TextBox txtHsSoyad;
+        private System.Windows.Forms.TextBox txtHsTel;
+        private System.Windows.Forms.TextBox txtHsAdres;
+        private System.Windows.Forms.TextBox txtHastaYas;
+        private System.Windows.Forms.TextBox txtHastaCins;
+        private System.Windows.Forms.TextBox txtHastaTur;
+        private System.Windows.Forms.TextBox txtHastaAd;
+        private System.Windows.Forms.Button btnHastaEkle;
+        private System.Windows.Forms.Button btnHastaSil;
+        private System.Windows.Forms.Button btnHastaGuncelle;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -16,12 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
            //Butonlara tıklandığında formlar arası geçişi sağlamak için.
@@ -29,7 +27,6 @@ namespace WindowsFormsApp1
             hs.Show();           
             this.Hide();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             //Butonlara tıklandığında formlar arası geçişi sağlamak için.
@@ -37,7 +34,6 @@ namespace WindowsFormsApp1
             rd.Show();
             this.Hide();
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
             //Butonlara tıklandığında formlar arası geçişi sağlamak için.
@@ -45,7 +41,6 @@ namespace WindowsFormsApp1
             ilc.Show();
             this.Hide();
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             //Butonlara tıklandığında formlar arası geçişi sağlamak için.
@@ -53,17 +48,10 @@ namespace WindowsFormsApp1
             odm.Show();
             this.Hide();
         }
-
         private void button5_Click_1(object sender, EventArgs e)
         {
-            //Butonlara tıklandığında formlar arası geçişi sağlamak için.
-           Giris grs = new Giris();
-            grs.Show();
-            this.Hide();
+            Application.Exit();
         }
-
-        
-        
 
         
     }

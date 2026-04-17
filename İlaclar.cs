@@ -19,10 +19,7 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //Butonlara tıklandığında formlar arası geçişi sağlamak için.
-            AnaSayfa hs = new AnaSayfa();
-            hs.Show();
-            this.Hide();
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)

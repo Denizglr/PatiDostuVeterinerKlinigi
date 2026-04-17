@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Giris));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtGirisSifre = new System.Windows.Forms.TextBox();
+            this.txtGirisAd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGiris = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.chkSifreGoster = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,23 +51,26 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox2
+            // txtGirisSifre
             // 
-            this.textBox2.BackColor = System.Drawing.Color.OldLace;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(314, 126);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(147, 13);
-            this.textBox2.TabIndex = 8;
+            this.txtGirisSifre.BackColor = System.Drawing.Color.OldLace;
+            this.txtGirisSifre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGirisSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtGirisSifre.Location = new System.Drawing.Point(309, 130);
+            this.txtGirisSifre.Name = "txtGirisSifre";
+            this.txtGirisSifre.PasswordChar = '*';
+            this.txtGirisSifre.Size = new System.Drawing.Size(147, 14);
+            this.txtGirisSifre.TabIndex = 8;
             // 
-            // textBox1
+            // txtGirisAd
             // 
-            this.textBox1.BackColor = System.Drawing.Color.OldLace;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(314, 65);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 13);
-            this.textBox1.TabIndex = 7;
+            this.txtGirisAd.BackColor = System.Drawing.Color.OldLace;
+            this.txtGirisAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGirisAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtGirisAd.Location = new System.Drawing.Point(308, 72);
+            this.txtGirisAd.Name = "txtGirisAd";
+            this.txtGirisAd.Size = new System.Drawing.Size(147, 14);
+            this.txtGirisAd.TabIndex = 7;
             // 
             // label2
             // 
@@ -74,7 +78,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.MistyRose;
-            this.label2.Location = new System.Drawing.Point(249, 123);
+            this.label2.Location = new System.Drawing.Point(244, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 16);
             this.label2.TabIndex = 6;
@@ -86,24 +90,25 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.MistyRose;
-            this.label1.Location = new System.Drawing.Point(189, 63);
+            this.label1.Location = new System.Drawing.Point(211, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 16);
+            this.label1.Size = new System.Drawing.Size(92, 16);
             this.label1.TabIndex = 5;
-            this.label1.Text = "KULLANICI ADI :";
+            this.label1.Text = "AD SOYAD :";
             // 
-            // button1
+            // btnGiris
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.RosyBrown;
-            this.button1.Location = new System.Drawing.Point(334, 172);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 39);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "GİRİŞ ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnGiris.BackColor = System.Drawing.Color.MistyRose;
+            this.btnGiris.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGiris.ForeColor = System.Drawing.Color.RosyBrown;
+            this.btnGiris.Location = new System.Drawing.Point(333, 191);
+            this.btnGiris.Name = "btnGiris";
+            this.btnGiris.Size = new System.Drawing.Size(104, 39);
+            this.btnGiris.TabIndex = 9;
+            this.btnGiris.Text = "GİRİŞ ";
+            this.btnGiris.UseVisualStyleBackColor = false;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click_1);
             // 
             // button5
             // 
@@ -121,16 +126,30 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // chkSifreGoster
+            // 
+            this.chkSifreGoster.AutoSize = true;
+            this.chkSifreGoster.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chkSifreGoster.ForeColor = System.Drawing.Color.MistyRose;
+            this.chkSifreGoster.Location = new System.Drawing.Point(328, 155);
+            this.chkSifreGoster.Name = "chkSifreGoster";
+            this.chkSifreGoster.Size = new System.Drawing.Size(112, 19);
+            this.chkSifreGoster.TabIndex = 16;
+            this.chkSifreGoster.Text = "Şifreyi Göster";
+            this.chkSifreGoster.UseVisualStyleBackColor = true;
+            this.chkSifreGoster.CheckedChanged += new System.EventHandler(this.chkSifreGoster_CheckedChanged);
+            // 
             // Giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(525, 264);
+            this.Controls.Add(this.chkSifreGoster);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnGiris);
+            this.Controls.Add(this.txtGirisSifre);
+            this.Controls.Add(this.txtGirisAd);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -146,12 +165,13 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtGirisSifre;
+        private System.Windows.Forms.TextBox txtGirisAd;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGiris;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.CheckBox chkSifreGoster;
     }
 }
 

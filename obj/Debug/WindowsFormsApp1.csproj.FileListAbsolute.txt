@@ -29,11 +29,26 @@ D:\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Ders
 D:\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\guler\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\guler\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\guler\Desktop\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AnaSayfa.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Giris.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Hastalar.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Odemeler.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Randevular.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.İlaclar.resources
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\guler\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
-C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AnaSayfa.resources
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Giris.resources
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Hastalar.resources
@@ -45,3 +60,4 @@ C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Anal
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\Sistem Analizi ve Tasarım Dersi\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config

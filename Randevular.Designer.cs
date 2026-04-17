@@ -36,26 +36,26 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.dgvRandevular = new System.Windows.Forms.DataGridView();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDurum = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbHastaAd = new System.Windows.Forms.ComboBox();
+            this.cmbSaat = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtUcret = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cmbİslem = new System.Windows.Forms.ComboBox();
+            this.dtpTarih = new System.Windows.Forms.DateTimePicker();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRandevular)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -165,59 +165,63 @@
             this.button2.Text = "RANDEVULAR";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgvRandevular
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.PaleVioletRed;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(410, 128);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(499, 441);
-            this.dataGridView1.TabIndex = 62;
+            this.dgvRandevular.BackgroundColor = System.Drawing.Color.PaleVioletRed;
+            this.dgvRandevular.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvRandevular.Location = new System.Drawing.Point(410, 128);
+            this.dgvRandevular.Name = "dgvRandevular";
+            this.dgvRandevular.Size = new System.Drawing.Size(499, 441);
+            this.dgvRandevular.TabIndex = 62;
+            this.dgvRandevular.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRandevular_CellClick);
             // 
-            // button8
+            // btnGuncelle
             // 
-            this.button8.BackColor = System.Drawing.Color.RosyBrown;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.MistyRose;
-            this.button8.Location = new System.Drawing.Point(186, 493);
-            this.button8.Margin = new System.Windows.Forms.Padding(0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(125, 28);
-            this.button8.TabIndex = 58;
-            this.button8.Text = "GÜNCELLE";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnGuncelle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGuncelle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnGuncelle.Location = new System.Drawing.Point(186, 493);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(125, 28);
+            this.btnGuncelle.TabIndex = 58;
+            this.btnGuncelle.Text = "GÜNCELLE";
+            this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
-            // button7
+            // btnSil
             // 
-            this.button7.BackColor = System.Drawing.Color.RosyBrown;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.MistyRose;
-            this.button7.Location = new System.Drawing.Point(186, 541);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(125, 28);
-            this.button7.TabIndex = 57;
-            this.button7.Text = "SİL";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnSil.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnSil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnSil.Location = new System.Drawing.Point(186, 541);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(125, 28);
+            this.btnSil.TabIndex = 57;
+            this.btnSil.Text = "SİL";
+            this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
-            // button6
+            // btnEkle
             // 
-            this.button6.BackColor = System.Drawing.Color.RosyBrown;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.MistyRose;
-            this.button6.Location = new System.Drawing.Point(186, 444);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(125, 28);
-            this.button6.TabIndex = 39;
-            this.button6.Text = "EKLE";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnEkle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnEkle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnEkle.Location = new System.Drawing.Point(186, 444);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(125, 28);
+            this.btnEkle.TabIndex = 39;
+            this.btnEkle.Text = "EKLE";
+            this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // label7
             // 
@@ -243,27 +247,16 @@
             this.label2.TabIndex = 40;
             this.label2.Text = "RANDEVU BİLGİLERİ";
             // 
-            // textBox3
+            // txtDurum
             // 
-            this.textBox3.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(161, 313);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 15);
-            this.textBox3.TabIndex = 32;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(161, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 15);
-            this.textBox2.TabIndex = 31;
+            this.txtDurum.BackColor = System.Drawing.Color.MistyRose;
+            this.txtDurum.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDurum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtDurum.ForeColor = System.Drawing.Color.Black;
+            this.txtDurum.Location = new System.Drawing.Point(161, 313);
+            this.txtDurum.Name = "txtDurum";
+            this.txtDurum.Size = new System.Drawing.Size(157, 14);
+            this.txtDurum.TabIndex = 32;
             // 
             // label5
             // 
@@ -301,22 +294,24 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Tarih :";
             // 
-            // comboBox1
+            // cmbHastaAd
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.MistyRose;
-            this.comboBox1.ForeColor = System.Drawing.Color.Black;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(161, 170);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(157, 21);
-            this.comboBox1.TabIndex = 63;
+            this.cmbHastaAd.BackColor = System.Drawing.Color.MistyRose;
+            this.cmbHastaAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbHastaAd.ForeColor = System.Drawing.Color.Black;
+            this.cmbHastaAd.FormattingEnabled = true;
+            this.cmbHastaAd.Location = new System.Drawing.Point(161, 170);
+            this.cmbHastaAd.Name = "cmbHastaAd";
+            this.cmbHastaAd.Size = new System.Drawing.Size(157, 23);
+            this.cmbHastaAd.TabIndex = 63;
             // 
-            // comboBox2
+            // cmbSaat
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.MistyRose;
-            this.comboBox2.ForeColor = System.Drawing.Color.Black;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmbSaat.BackColor = System.Drawing.Color.MistyRose;
+            this.cmbSaat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbSaat.ForeColor = System.Drawing.Color.Black;
+            this.cmbSaat.FormattingEnabled = true;
+            this.cmbSaat.Items.AddRange(new object[] {
             "09:00",
             "10:00",
             "11:00",
@@ -327,10 +322,10 @@
             "17:00",
             "18:00",
             "19:00"});
-            this.comboBox2.Location = new System.Drawing.Point(161, 265);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 21);
-            this.comboBox2.TabIndex = 64;
+            this.cmbSaat.Location = new System.Drawing.Point(161, 265);
+            this.cmbSaat.Name = "cmbSaat";
+            this.cmbSaat.Size = new System.Drawing.Size(157, 23);
+            this.cmbSaat.TabIndex = 64;
             // 
             // label3
             // 
@@ -344,16 +339,16 @@
             this.label3.TabIndex = 65;
             this.label3.Text = "İşlem Türü:";
             // 
-            // textBox4
+            // txtUcret
             // 
-            this.textBox4.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(161, 405);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(157, 15);
-            this.textBox4.TabIndex = 68;
+            this.txtUcret.BackColor = System.Drawing.Color.MistyRose;
+            this.txtUcret.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUcret.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtUcret.ForeColor = System.Drawing.Color.Black;
+            this.txtUcret.Location = new System.Drawing.Point(161, 405);
+            this.txtUcret.Name = "txtUcret";
+            this.txtUcret.Size = new System.Drawing.Size(157, 14);
+            this.txtUcret.TabIndex = 68;
             // 
             // label6
             // 
@@ -367,12 +362,13 @@
             this.label6.TabIndex = 67;
             this.label6.Text = "Ücret :";
             // 
-            // comboBox3
+            // cmbİslem
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.MistyRose;
-            this.comboBox3.ForeColor = System.Drawing.Color.Black;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmbİslem.BackColor = System.Drawing.Color.MistyRose;
+            this.cmbİslem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbİslem.ForeColor = System.Drawing.Color.Black;
+            this.cmbİslem.FormattingEnabled = true;
+            this.cmbİslem.Items.AddRange(new object[] {
             "Genel Muayene",
             "Acil Müdahale",
             "Karma Aşı (Kedi/Köpek)",
@@ -387,10 +383,19 @@
             "Pansuman ve Yara Bakımı",
             "Mikroçip Uygulaması",
             "Tıraş ve Banyo"});
-            this.comboBox3.Location = new System.Drawing.Point(161, 358);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(157, 21);
-            this.comboBox3.TabIndex = 69;
+            this.cmbİslem.Location = new System.Drawing.Point(161, 358);
+            this.cmbİslem.Name = "cmbİslem";
+            this.cmbİslem.Size = new System.Drawing.Size(157, 23);
+            this.cmbİslem.TabIndex = 69;
+            // 
+            // dtpTarih
+            // 
+            this.dtpTarih.CalendarMonthBackground = System.Drawing.SystemColors.InactiveCaption;
+            this.dtpTarih.CalendarTitleBackColor = System.Drawing.Color.MistyRose;
+            this.dtpTarih.Location = new System.Drawing.Point(161, 214);
+            this.dtpTarih.Name = "dtpTarih";
+            this.dtpTarih.Size = new System.Drawing.Size(157, 20);
+            this.dtpTarih.TabIndex = 70;
             // 
             // Randevular
             // 
@@ -398,19 +403,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1017, 635);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.dtpTarih);
+            this.Controls.Add(this.cmbİslem);
+            this.Controls.Add(this.txtUcret);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.cmbSaat);
+            this.Controls.Add(this.cmbHastaAd);
+            this.Controls.Add(this.txtDurum);
+            this.Controls.Add(this.dgvRandevular);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.btnSil);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
@@ -420,9 +425,10 @@
             this.Name = "Randevular";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Randevular";
+            this.Load += new System.EventHandler(this.Randevular_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvRandevular)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -437,22 +443,22 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridView dgvRandevular;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDurum;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbHastaAd;
+        private System.Windows.Forms.ComboBox cmbSaat;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtUcret;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cmbİslem;
+        private System.Windows.Forms.DateTimePicker dtpTarih;
     }
 }
