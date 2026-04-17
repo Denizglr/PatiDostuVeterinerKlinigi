@@ -45,16 +45,12 @@ Tüm klinik işlemlerinin merkez üssü.
 
 ### 🐾 Hasta Kayıt ve Sorgulama
 Evcil hayvanların ve sahiplerinin detaylı bilgilerinin yönetildiği alan.
-![Hasta Kayıt](resim_linki_buraya)
+![Hasta Kayıt Ekranı](https://github.com/user-attachments/assets/7c657621-110d-42ff-bb6f-5b94b3f397db)
 
 ### 📅 Randevu Yönetimi
 Klinik takviminin ve randevu çakışmalarının kontrol edildiği modül.
-![Randevu Sistemi](resim_linki_buraya)
+![Randevu Sistemi](https://github.com/user-attachments/assets/820e9c20-21ed-4a0f-8054-2ad3d82c1632)
 
 ### 💊 Stok ve İlaç Takibi
 İlaç envanterinin ve kritik stok seviyelerinin izlendiği ekran.
-![Stok Takibi](resim_linki_buraya)
-
-### 💳 Fatura ve Ödeme İşlemleri
-Yapılan tıbbi işlemlerin ücretlendirilerek fatura edildiği bölüm.
-![Fatura Ekranı](resim_linki_buraya)
+![Stok Takibi](https://github.com/user-attachments/assets/a3769b8e-1cec-4660-b6cc-108028d1ff61)
