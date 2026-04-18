@@ -36,20 +36,20 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.dgvİlaclar = new System.Windows.Forms.DataGridView();
+            this.txtMiktar = new System.Windows.Forms.TextBox();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtİlacAd = new System.Windows.Forms.TextBox();
+            this.txtFiyat = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvİlaclar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -159,70 +159,74 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dataGridView1
+            // dgvİlaclar
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.PaleVioletRed;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(390, 179);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(499, 349);
-            this.dataGridView1.TabIndex = 75;
+            this.dgvİlaclar.BackgroundColor = System.Drawing.Color.PaleVioletRed;
+            this.dgvİlaclar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvİlaclar.Location = new System.Drawing.Point(390, 179);
+            this.dgvİlaclar.Name = "dgvİlaclar";
+            this.dgvİlaclar.Size = new System.Drawing.Size(499, 349);
+            this.dgvİlaclar.TabIndex = 75;
+            this.dgvİlaclar.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvİlaclar_CellClick);
             // 
-            // textBox2
+            // txtMiktar
             // 
-            this.textBox2.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(139, 290);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 15);
-            this.textBox2.TabIndex = 68;
+            this.txtMiktar.BackColor = System.Drawing.Color.MistyRose;
+            this.txtMiktar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMiktar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtMiktar.ForeColor = System.Drawing.Color.Black;
+            this.txtMiktar.Location = new System.Drawing.Point(139, 290);
+            this.txtMiktar.Name = "txtMiktar";
+            this.txtMiktar.Size = new System.Drawing.Size(157, 15);
+            this.txtMiktar.TabIndex = 68;
             // 
-            // button8
+            // btnGuncelle
             // 
-            this.button8.BackColor = System.Drawing.Color.RosyBrown;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.MistyRose;
-            this.button8.Location = new System.Drawing.Point(159, 449);
-            this.button8.Margin = new System.Windows.Forms.Padding(0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(125, 28);
-            this.button8.TabIndex = 74;
-            this.button8.Text = "GÜNCELLE";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnGuncelle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGuncelle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnGuncelle.Location = new System.Drawing.Point(159, 449);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(125, 28);
+            this.btnGuncelle.TabIndex = 74;
+            this.btnGuncelle.Text = "GÜNCELLE";
+            this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
-            // button7
+            // btnSil
             // 
-            this.button7.BackColor = System.Drawing.Color.RosyBrown;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.MistyRose;
-            this.button7.Location = new System.Drawing.Point(159, 500);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(125, 28);
-            this.button7.TabIndex = 73;
-            this.button7.Text = "SİL";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnSil.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnSil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnSil.Location = new System.Drawing.Point(159, 500);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(125, 28);
+            this.btnSil.TabIndex = 73;
+            this.btnSil.Text = "SİL";
+            this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
-            // button6
+            // btnEkle
             // 
-            this.button6.BackColor = System.Drawing.Color.RosyBrown;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.MistyRose;
-            this.button6.Location = new System.Drawing.Point(159, 400);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(125, 28);
-            this.button6.TabIndex = 70;
-            this.button6.Text = "EKLE";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnEkle.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnEkle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.ForeColor = System.Drawing.Color.MistyRose;
+            this.btnEkle.Location = new System.Drawing.Point(159, 400);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(0);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(125, 28);
+            this.btnEkle.TabIndex = 70;
+            this.btnEkle.Text = "EKLE";
+            this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // label4
             // 
@@ -272,27 +276,27 @@
             this.label2.TabIndex = 71;
             this.label2.Text = "İLAÇ VE STOK BİLGİLERİ";
             // 
-            // textBox1
+            // txtİlacAd
             // 
-            this.textBox1.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(139, 245);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 15);
-            this.textBox1.TabIndex = 78;
+            this.txtİlacAd.BackColor = System.Drawing.Color.MistyRose;
+            this.txtİlacAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtİlacAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtİlacAd.ForeColor = System.Drawing.Color.Black;
+            this.txtİlacAd.Location = new System.Drawing.Point(139, 245);
+            this.txtİlacAd.Name = "txtİlacAd";
+            this.txtİlacAd.Size = new System.Drawing.Size(157, 15);
+            this.txtİlacAd.TabIndex = 78;
             // 
-            // textBox3
+            // txtFiyat
             // 
-            this.textBox3.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(139, 337);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(157, 15);
-            this.textBox3.TabIndex = 79;
+            this.txtFiyat.BackColor = System.Drawing.Color.MistyRose;
+            this.txtFiyat.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtFiyat.ForeColor = System.Drawing.Color.Black;
+            this.txtFiyat.Location = new System.Drawing.Point(139, 337);
+            this.txtFiyat.Name = "txtFiyat";
+            this.txtFiyat.Size = new System.Drawing.Size(157, 15);
+            this.txtFiyat.TabIndex = 79;
             // 
             // İlaclar
             // 
@@ -300,24 +304,25 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1017, 635);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFiyat);
+            this.Controls.Add(this.txtİlacAd);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvİlaclar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtMiktar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnEkle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "İlaclar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.İlaclar_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvİlaclar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,16 +337,16 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.DataGridView dgvİlaclar;
+        private System.Windows.Forms.TextBox txtMiktar;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtİlacAd;
+        private System.Windows.Forms.TextBox txtFiyat;
     }
 }

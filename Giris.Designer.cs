@@ -66,7 +66,7 @@
             // 
             this.txtGirisAd.BackColor = System.Drawing.Color.OldLace;
             this.txtGirisAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtGirisAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtGirisAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtGirisAd.Location = new System.Drawing.Point(308, 72);
             this.txtGirisAd.Name = "txtGirisAd";
             this.txtGirisAd.Size = new System.Drawing.Size(147, 14);

@@ -30,14 +30,14 @@ namespace WindowsFormsApp1
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            //Butonlara tıklandığında formlar arası geçişi sağlamak için.
+            
             İlaclar ilc = new İlaclar();
             ilc.Show();
             this.Hide();
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            //Butonlara tıklandığında formlar arası geçişi sağlamak için.
+           
             Odemeler odm = new Odemeler();
             odm.Show();
             this.Hide();
@@ -64,15 +64,9 @@ namespace WindowsFormsApp1
                     // ALINAN MÜŞTERİ ID'Sİ İLE HASTAYI KAYDET
                     string hSorgu = "INSERT INTO HastalarTbl (MusteriId, Ad, Tur, Cins, Yas) VALUES (" + yeniMusteriId + ", '" + txtHastaAd.Text + "'," +" '" + txtHastaTur.Text + "', '" + txtHastaCins.Text + "', '" + txtHastaYas.Text + "')";
                     SqlCommand hKomut = new SqlCommand(hSorgu, baglanti);
-                    hKomut.ExecuteNonQuery();
-
-                    // KULLANICIYA HABER VER
-                    MessageBox.Show("Kayıt Başarıyla Tamamlandı! Hem sahip hem de dostumuz eklendi. ✔️");
-
-                    // LİSTEYİ YENİLE (Sağdaki DataGridView)
-                    Listele();
-
-                    // KUTULARI TEMİZLE (Sol taraftaki TextBox'lar boşalsın)
+                    hKomut.ExecuteNonQuery();                  
+                    MessageBox.Show("Kayıt Başarıyla Tamamlandı! Hem sahip hem de dostumuz eklendi. ✔️");                  
+                    Listele();                   
                     Temizle();
                 }
                 catch (Exception ex)
@@ -106,14 +100,14 @@ namespace WindowsFormsApp1
         {
             if (e.RowIndex >= 0)
             {
-                // 1. Hasta Bilgilerini Al
+                // Hasta Bilgilerini Al
                 secilenHastaId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["HastaId"].Value);
                 txtHastaAd.Text = dataGridView1.Rows[e.RowIndex].Cells["Ad"].Value.ToString();
                 txtHastaTur.Text = dataGridView1.Rows[e.RowIndex].Cells["Tur"].Value.ToString();
                 txtHastaCins.Text = dataGridView1.Rows[e.RowIndex].Cells["Cins"].Value.ToString();
                 txtHastaYas.Text = dataGridView1.Rows[e.RowIndex].Cells["Yas"].Value.ToString();
 
-                // 2. Müşteri Bilgilerini Al (MusteriId kullanarak veritabanından çekiyoruz)
+                // Müşteri Bilgilerini Al (MusteriId kullanarak veritabanından çekiyoruz)
                 int mId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["MusteriId"].Value);
                 MusteriBilgileriniGetir(mId);
             }
@@ -140,7 +134,6 @@ namespace WindowsFormsApp1
             }
 
         }
-
         private void btnHastaGuncelle_Click(object sender, EventArgs e)
         {
             if (secilenHastaId == 0) { MessageBox.Show("Lütfen bir kayıt seçin!"); return; }
@@ -158,13 +151,13 @@ namespace WindowsFormsApp1
                     SqlCommand idKomut = new SqlCommand(idSorgu, baglanti);
                     int mId = Convert.ToInt32(idKomut.ExecuteScalar());
 
-                    // 1. HASTA GÜNCELLEME
+                    //  HASTA GÜNCELLEME
                     string hSorgu = "UPDATE HastalarTbl SET Ad='" + txtHastaAd.Text + "', Tur='" + txtHastaTur.Text + "', Cins='" + txtHastaCins.Text + "'," +
                         " Yas='" + txtHastaYas.Text + "' WHERE HastaId=" + secilenHastaId;
                     SqlCommand hKomut = new SqlCommand(hSorgu, baglanti);
                     hKomut.ExecuteNonQuery();
 
-                    // 2. MÜŞTERİ (SAHİBİ) GÜNCELLEME
+                    // MÜŞTERİ (SAHİBİ) GÜNCELLEME
                     string mSorgu = "UPDATE MusteriTbl SET Ad='" + txtHsAd.Text + "', Soyad='" + txtHsSoyad.Text + "', Telefon='" + txtHsTel.Text + "'," +
                         " Adres='" + txtHsAdres.Text + "' WHERE MusteriId=" + mId;
                     SqlCommand mKomut = new SqlCommand(mSorgu, baglanti);

@@ -55,6 +55,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(198, 553);
             this.panel1.TabIndex = 0;
+           
             // 
             // button4
             // 
