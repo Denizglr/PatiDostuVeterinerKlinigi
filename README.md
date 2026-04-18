@@ -37,24 +37,25 @@ Projenin temel arayüz tasarımları ve kullanım akışı aşağıda sunulmuşt
 
 ### 🔐 Giriş Paneli
 Veteriner ve yöneticilerin sisteme güvenli erişim sağladığı modül.
-![Giriş Paneli](https://github.com/user-attachments/assets/b34c2337-b545-4f5e-be7b-a5cd15f8690f)
+![Giriş Ekranı](giris.png)
 
 ### 🏠 Ana Menü (Dashboard)
 Tüm klinik işlemlerinin merkez üssü.
-![Ana Sayfa](https://github.com/user-attachments/assets/0139bfd8-1167-4741-b7a7-e577e9735526)
+![Ana Sayfa](AnaSayfa.png)
 
 ### 🐾 Hasta Kayıt ve Sorgulama
 Evcil hayvanların ve sahiplerinin detaylı bilgilerinin yönetildiği alan.
-![Hasta Kayıt](resim_linki_buraya)
+![Hasta Kayıt Ekranı](Hastalar.png)
 
 ### 📅 Randevu Yönetimi
 Klinik takviminin ve randevu çakışmalarının kontrol edildiği modül.
-![Randevu Sistemi](resim_linki_buraya)
+![Randevu Sistemi](Randevular.png)
 
 ### 💊 Stok ve İlaç Takibi
 İlaç envanterinin ve kritik stok seviyelerinin izlendiği ekran.
-![Stok Takibi](resim_linki_buraya)
+![Stok Takibi](İlaclar.png)
 
-### 💳 Fatura ve Ödeme İşlemleri
-Yapılan tıbbi işlemlerin ücretlendirilerek fatura edildiği bölüm.
-![Fatura Ekranı](resim_linki_buraya)
+### Ödeme Takibi
+Ödeme ekranı.
+![Ödemeler](Odemeler.png)
+
